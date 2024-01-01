@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <main class="main active">
+    </main>
+      <section class="quiz-section">
+        <div class="quiz-box">
+          <h1>Javascript quiz</h1>
+          <div class="quiz-header">
+            <p>Quiz website tutorials</p>
+            <p class="score">score:0/5</p>
+          </div>
+          <h2 class="question-text"></h2>
+          <div class="option-list">
+            <!-- <div class="option">
+              <span>A.Charles Babbage</span>
+            </div>
+            <div class="option">
+              <span>B.Bill Gates</span>
+            </div>
+            <div class="option">
+              <span>C.Elon Mask</span>
+            </div>
+            <div class="option">
+              <span>D.Steve Jobs</span>
+            </div> -->
+          </div>
+          <div class="quiz-footer">
+            <span class="question-total">1 of 5 Questions</span>
+            <button class="next-btn">Next</button>
+          </div>
+          
+        </div>
+      </section>
+      <div class="result-box">
+        <h2>Quiz result</h2>
+        <div class="percentage-container">
+          <div class="circular-progress">
+            <span class="progress-value">0%</span>
+          </div>
+          <span class="score-text">Your score 0 out of 5</span>
+        </div>
+        <div class="buttons">
+          <a href="#"><button class="tryAgain-btn">Try Again</button></a>
+          <a href="./index.html"><button id="go-to-home">Go To Home</button></a>
+        </div>
+        
+      </div>
+   
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/questions.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
